@@ -13,6 +13,11 @@ The script supports these Linux distributions:
 | Rhel >=8           | ✅      |
 | Windows>= 2016     | ✅      |
 
+
+## Features
+
+ collect memory utilization and disk utilization through custom metrics on windows, linux 
+
 ## Usage
 
 ### linux
