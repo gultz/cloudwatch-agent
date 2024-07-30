@@ -17,18 +17,18 @@ The script supports these Linux distributions:
 
 ### linux
 
-\```bash
+```bash
 wget https://jinseokk-bucket.s3.ap-northeast-2.amazonaws.com/cloudwatch_linux.sh
 sudo -s
 ./cloudwatch_linux.sh
-\```
+```
 
 ### window
-\```bash
+```bash
 Invoke-WebRequest -Uri "https://jinseokk-bucket.s3.ap-northeast-2.amazonaws.com/cloudwatch_window.ps1" -OutFile ".\cloudwatch_window.ps1"
 Set-ExecutionPolicy Unrestricted -Scope Process -Force
 .\cloudwatch_window.ps1
-\```
+```
 
 ### window-2016
 \```
