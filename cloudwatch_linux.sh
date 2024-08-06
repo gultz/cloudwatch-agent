@@ -42,13 +42,10 @@ configure_cloudwatch_agent() {
         "run_as_user": "root"
     },
     "metrics": {
-        "namespace": "CWAgent",
+        "namespace": "CWAgent-linux",
         "append_dimensions": {
             "InstanceId": "\${aws:InstanceId}"
         },
-        "aggregation_dimensions": [
-            ["InstanceId","device","fstype","path"]
-        ],
         "metrics_collected": {
             "mem": {
                 "measurement": [
