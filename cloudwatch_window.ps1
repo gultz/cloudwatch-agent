@@ -29,7 +29,7 @@ function Configure-CloudWatchAgent {
         "metrics_collection_interval": 60
     },
     "metrics": {
-        "namespace": "CWAgent-window",
+        "namespace": "Custom Metrics",
         "append_dimensions": {
             "InstanceId": "${aws:InstanceId}"
         },
