@@ -11,6 +11,8 @@ The script supports these Linux distributions:
 | Amazon Linux 2     | ✅      |
 | Ununtu >= 20.04    | ✅      |
 | Rhel >=8           | ✅      |
+| centos >=8         | ✅      |
+| rocky >=8          | ✅      |
 | Windows>= 2016     | ✅      |
 
 
