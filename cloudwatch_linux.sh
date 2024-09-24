@@ -27,6 +27,10 @@ install_cloudwatch_agent() {
         yum install wget -y
         wget https://amazoncloudwatch-agent.s3.amazonaws.com/redhat/amd64/latest/amazon-cloudwatch-agent.rpm
         sudo rpm -U ./amazon-cloudwatch-agent.rpm
+    elif [[ $os == "rocky" ||  $os == "centos" ]]; then
+        yum install wget -y
+        wget https://amazoncloudwatch-agent.s3.amazonaws.com/centos/amd64/latest/amazon-cloudwatch-agent.rpm
+        sudo rpm -U ./amazon-cloudwatch-agent.rpm
     else
         echo "Unsupported OS version"
         exit 1
